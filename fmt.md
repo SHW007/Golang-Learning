@@ -1,7 +1,7 @@
-fmt.
+#### fmt.
 
-fmt.Append(b []byte, a ...any) []byte
-    使用其操作数的默认格式追加格式，将结果追加到字节片，并返回更新后的片。
+`fmt.Append(b []byte, a ...any) []byte`
+- 使用其操作数的默认格式追加格式，将结果追加到字节片，并返回更新后的片。
 fmt. Appendf(b []byte, format string, a ...any) []byte
     Appendf根据格式说明符进行格式化，将结果追加到字节片，并返回更新后的片。
 fmt. Appendln(b []byte, a ...any) []byte
@@ -71,3 +71,4 @@ float32, complex64, etc: %g
 string:                  %s
 chan:                    %p
 pointer:                 %p
+
